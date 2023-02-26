@@ -4,7 +4,7 @@ body {
 	font-family: 'Lato';
 	margin: 0;
 	padding: 0;
-	/* background-color: black; */
+	background-color: whitesmoke;
   }
 
 #pomoid {
@@ -23,7 +23,7 @@ body {
 
 #todo_id {
 	font-family:'Lato';
-	background-image: url("https://kinsta.com/wp-content/uploads/2022/03/best-elementor-themes.jpg");
+	background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-history-purple-art-thesis-education-picture-image_1385952.jpg");
 	height:200px;
 	width:93%;
 	color:black;
@@ -44,13 +44,12 @@ body {
 #tasklist {
 	text-align: center;
 	width: 50px;
-	
 }
 
 
 h1 {
 	font-weight: bold;
-	color:springgreen;
+	color:darkviolet;
 	text-align: center;
   font-size: 2.8em;
   padding: 5px 0;
@@ -60,7 +59,7 @@ h1 {
 h3 {
 	font-size: 24px;
 	font-weight: bold;
-	color:springgreen;
+	color:violet;
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 50px;
@@ -75,7 +74,7 @@ p {
 }
   header {
 	background-color: #333;
-	background-image: url("https://i.pinimg.com/736x/72/da/8e/72da8e918336efe1313e62f05f090e08.jpg");
+	background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-history-purple-art-thesis-education-picture-image_1385952.jpg");
 	color: #fff;
 	font-weight: 400;
 	padding: 20px;
@@ -98,13 +97,14 @@ p {
   nav ul li {
 	display: inline-block;
 	margin-right: 20px;
-	background-color:black;
-	color: white;
+	background-color:plum;
+	color: black;
+	border-radius: 10%;
   }
   
   nav ul li a {
 	float: left;
-	color: white;
+	color: indigo;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -114,6 +114,7 @@ p {
   nav ul li a:hover {
 	background-color: #ddd;
 	color: black;
+	border-radius: 10%;
   }
   
   section {
