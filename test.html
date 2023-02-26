@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>STUDY BUD.IO</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>S T U D Y B U D . I O</h1>
+    <h3>get ahead of the curve with your study bud</h3>
+    <nav class=".navbar">
+      <ul>
+        <li><a href="#pomoid">Pomodoro</a></li>
+        <li><a href="#todo_id">To-Do</a></li>
+        <li><a href="#aboutid">About</a></li>
+        <li><a href="#contactid">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="pomoid">
+    <h2>POMODORO TIMER ~ small steps to success!</h2>
+    <div id="timer">25:00</div>
+    <button id="start-btn">Start</button>
+    <button id="reset-btn">Reset</button>
+  </section>
+
+
+  <section id="todo_id">
+    <h2 style="background-color: violet; padding-top: 10px; padding-bottom: 10px;">TO DO SECTION</h2>
+    <div id="tasks-container">
+      <div id="add-task">
+        <input type="text" id="task-input" placeholder="Enter a task...">
+        <button id="add-btn">Add Task</button>
+      </div>
+      <ul id="task-list">
+
+      </ul>
+    </div>
+  </section>
+
+  <section id="contactid">
+    <h2>Contact Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>

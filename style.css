@@ -1,0 +1,260 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900);
+
+body {
+	font-family: 'Lato';
+	margin: 0;
+	padding: 0;
+	/* background-color: black; */
+  }
+
+#pomoid {
+	font-family:'Lato';
+	font-size: 20px;
+	background-image: url("https://vivaldi.com/wp-content/uploads/The_Pomodoro_timer_in_Vivaldi_browser-980x551.png");
+	background-repeat: no-repeat;
+	height: fit-content;
+	width:100%;
+	color:darkred;
+	text-align: center;
+	align-content: center;
+	padding-left: 23%;
+	background-color: lightcoral;
+}
+
+#todo_id {
+	font-family:'Lato';
+	background-image: url("https://kinsta.com/wp-content/uploads/2022/03/best-elementor-themes.jpg");
+	height:200px;
+	width:93%;
+	color:black;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	/* align-content: center; */
+	padding-top: 30px;
+	margin-top: 30px;
+}
+
+#tasklist {
+	text-align: center;
+	width: 50px;
+	
+}
+
+
+h1 {
+	font-weight: bold;
+	color:springgreen;
+	text-align: center;
+  font-size: 2.8em;
+  padding: 5px 0;
+  font-weight: 800;
+}
+
+h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color:springgreen;
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+  }
+  
+
+p {
+  font-size: 1.1em;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-family: 'Lato';
+}
+  header {
+	background-color: #333;
+	background-image: url("https://i.pinimg.com/736x/72/da/8e/72da8e918336efe1313e62f05f090e08.jpg");
+	color: #fff;
+	font-weight: 400;
+	padding: 20px;
+	font-family:'Lato';
+  }
+  
+  header h1 {
+	font-family:'Lato';
+	font-size: 36px;
+	margin: 10;
+  }
+  
+  nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+  }
+  
+  nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+	background-color:black;
+	color: white;
+  }
+  
+  nav ul li a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+
+  nav ul li a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  section {
+	padding: 50px;
+  }
+  
+  section h2 {
+	margin-top: 0;
+  }
+  
+  ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  form label {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  form input,
+  form textarea {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  /* Pomodoro Timer Styles */
+  
+  #timer {
+	font-size: 4em;
+	display: block;
+	margin-bottom: 20px;
+  }
+  
+  #start-btn {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 10px;
+	cursor: pointer;
+  }
+  
+  #reset-btn {
+	background-color: #f44336;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  /* To Do List Styles */
+  
+  #task-input {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin-right: 10px;
+  }
+  
+  #add-btn {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  .task-item {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+  
+  .task-item .task-text {
+	flex-grow: 1;
+  }
+  
+  .task-item .delete-btn {
+	background-color: darkmagenta;
+	color: white;
+	border: none;
+	padding: 5px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 10px;
+	cursor: pointer;
+  }
+  
+  /* Query Form Styles */
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+	width: 100%;
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+  }
+  
+  form input[type="submit"] {
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+  }
+  
+  .navbar {
+	background-color: #333;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+  }
+  
+  .navbar a {
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .navbar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
