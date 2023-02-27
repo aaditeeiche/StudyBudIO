@@ -5,6 +5,7 @@ body {
 	margin: 0;
 	padding: 0;
 	background-color: whitesmoke;
+	overflow-x: hidden;
   }
 
 #pomoid {
@@ -13,12 +14,17 @@ body {
 	background-image: url("https://vivaldi.com/wp-content/uploads/The_Pomodoro_timer_in_Vivaldi_browser-980x551.png");
 	background-repeat: no-repeat;
 	height: fit-content;
-	width:1000px;
+	width:auto;
 	color:darkred;
 	text-align: center;
-	align-content: center;
-	padding-left: 36%;
-	background-color: lightcoral;
+	/* align-content: center; */
+	padding-left: 60%;
+	background-color: #fbdbbb;
+	
+}
+
+main {
+	margin-left: 170px;
 }
 
 #todo_id {
@@ -31,8 +37,8 @@ body {
 	font-size: 20px;
 	text-align: center;
 	/* align-content: center; */
-	padding-top: 30px;
-	margin-top: 30px;
+	/* padding-top: 30px; */
+	margin-top: 20px;
 }
 
 #contactid {
@@ -73,18 +79,14 @@ p {
   font-family: 'Lato';
 }
   header {
-	background-color: #333;
 	background-image: url("https://png.pngtree.com/background/20210716/original/pngtree-history-purple-art-thesis-education-picture-image_1385952.jpg");
-	color: #fff;
-	font-weight: 400;
-	padding: 20px;
-	font-family:'Lato';
-  }
+}
   
   header h1 {
 	font-family:'Lato';
-	font-size: 36px;
-	margin: 10;
+	font-size: 53px;
+	margin-left: 0;
+	text-align: center;
   }
   
   nav ul {
@@ -92,14 +94,22 @@ p {
 	margin: 0;
 	padding: 0;
 	align-items: center;
+	position: fixed;
+	top: 0; left: 0;
+	height: 100%;
+	width: 15%;
+	background-image: url("https://img.freepik.com/premium-vector/cute-purple-aesthetic-abstract-minimal-background-perfect-wallpaper-backdrop-postcard-background_565280-448.jpg?w=900");
   }
   
   nav ul li {
+	margin-top: 150px;
 	display: inline-block;
 	margin-right: 20px;
 	background-color:plum;
 	color: black;
 	border-radius: 10%;
+	display: block;
+	width: 90%;
   }
   
   nav ul li a {
@@ -109,16 +119,20 @@ p {
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+	width: 90%;
   }
-
+  
   nav ul li a:hover {
 	background-color: #ddd;
 	color: black;
-	border-radius: 10%;
+	border-radius: 15%;
+	width: 90%;
   }
   
   section {
 	padding: 50px;
+	overflow-x: hidden;
+	overflow-y: auto;
   }
   
   section h2 {
@@ -161,6 +175,7 @@ p {
 	font-size: 16px;
 	margin-right: 10px;
 	cursor: pointer;
+	margin-left: 9px;
   }
   
   #reset-btn {
@@ -168,6 +183,7 @@ p {
 	color: white;
 	border: none;
 	padding: 10px 20px;
+	margin-left: 0px;
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
@@ -183,6 +199,10 @@ p {
 	border: 1px solid #ccc;
 	border-radius: 5px;
 	margin-right: 10px;
+  }
+
+  #tasks-container {
+	width: auto;
   }
   
   #add-btn {
